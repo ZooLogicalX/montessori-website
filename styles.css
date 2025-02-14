@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif; /* A serif font for a classic, educational feel */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea; /* Light beige background color for a natural look */
+    color: #4b3f3b; /* Dark brown text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #8d6e63; /* Warm brown for a nurturing feel */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #6d4c41; /* Dark brown for a professional look */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #a1887f; /* Light brown for a gentle hover effect */
+    color: white;
+}
+
+/* Container Styles */
+.container {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Call-to-Action Button Styles */
+.cta-button {
+    background-color: #d7ccc8; /* Light brown for a standout call-to-action */
+    color: #4b3f3b; /* Dark brown text color */
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.cta-button:hover {
+    background-color: #a1887f; /* Light brown for a gentle hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #6d4c41; /* Dark brown for a professional look */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Section Styles */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+ul li strong {
+    color: #8d6e63; /* Warm brown for emphasis */
+}
